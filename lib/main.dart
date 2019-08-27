@@ -55,6 +55,7 @@ class _myState extends State<mainStatefull> {
             r3c2 == selectedColor &&
             r3c3 == selectedColor) {
           timer.cancel();
+          play = false;
           win = true;
           resetColors();
           alertBox(win);
